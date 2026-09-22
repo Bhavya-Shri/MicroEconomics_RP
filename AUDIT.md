@@ -34,3 +34,4 @@ No other uploaded paper files were present in this workspace when the draft was 
 - 2026-09-22: Central benefit at a shared strength pass is Rs 8,000 per tonne, equal to the central retail cement price, because carbon, disposal, and transport are zero unless a scenario turns them on. A leaching failure returns Rs 0. All 40 compiled rows are `untested` for leaching.
 - 2026-09-22: Wrote `paper/DRAFT.md` (abstract, introduction, methodology, results, conclusion) and `README.md`.
 - 2026-09-22: Did not carry forward the 17% / 17.88% strength sentence, the red-mud paragraphs, the duplicated references, or the Word leaching table. Gared and Gaur are cited only for the jarofix recipe in their abstract (2% lime and 10% cement).
+- 2026-09-22: Pushed `main` to https://github.com/Bhavya-Shri/MicroEconomics_RP.git.
