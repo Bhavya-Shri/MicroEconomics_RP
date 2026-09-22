@@ -1,0 +1,57 @@
+{
+  "zinc_primary_smelter_t_2024": 817058,
+  "zinc_source": "U.S. Geological Survey, India minerals table, primary zinc smelter production in 2024 (817,058 t). https://www.usgs.gov/centers/national-minerals-information-center/india",
+  "jarosite_t_per_t_zinc": 0.5,
+  "jarosite_factor_note": "About 0.5 t of jarosite residue per tonne of refined zinc, as cited from Kangas et al. (2017) in the source review. This draft does not remeasure the factor.",
+  "alternate_jarosite_supply_tpy": [
+    {
+      "name": "nandi_citation",
+      "tonnes": 250000,
+      "note": "Nandi and Ransinchung (2021) state that about 0.25 million tonnes of jarosite waste is released per year in India."
+    },
+    {
+      "name": "sharma_hzl_chittorgarh",
+      "tonnes": 500000,
+      "note": "Sharma (2021) states annual jarosite production of about 0.5 million tons from Hindustan Zinc at Chittorgarh, plus about 1.5 million tons accumulated. This is a plant-level claim, not a national mass balance."
+    }
+  ],
+  "hzl_jarosite_used_in_cement_construction_t": 163795,
+  "hzl_use_note": "Hindustan Zinc FY2023-24 environment report states 163,795 MT of jarosite used in cement construction. https://integratedreport.hzlindia.com/annual-integrated-report-fy-2023-24/environment.php",
+  "cement_co2_t_per_t_central": 0.68,
+  "cement_co2_t_per_t_high": 0.90,
+  "cement_co2_note": "Central value is the Indian cement-sector intensity of 0.68 t CO2 per t cement in 2020 from the GCCA India roadmap executive summary. The high value is 0.90 t CO2 per t cement, the order of magnitude cited by Nandi and Ransinchung (2021) for cement production. OPC ground-to-gate figures of 0.91-1.00 t CO2e are reported by Basavaraj and Gettu (2025), doi:10.70002/iitm.rdr.1.1.37.",
+  "cement_price_inr_per_t": {
+    "low": 7400,
+    "central": 8000,
+    "high": 8600
+  },
+  "cement_price_note": "Retail scenario built from publicly listed OPC bag prices of about Rs 370, Rs 400 and Rs 430 per 50 kg bag, converted to a tonne. This is not an ex-works or wholesale contract price.",
+  "carbon_price_inr_per_t": {
+    "none": 0,
+    "illustrative_low": 500,
+    "illustrative_high": 2000
+  },
+  "carbon_price_note": "India does not have one observed economy-wide carbon price in the sources used here. The none case is the reported central result. The other two values are labelled scenarios.",
+  "disposal_cost_inr_per_t_assumed": {
+    "none": 0,
+    "low": 1500,
+    "high": 4000
+  },
+  "disposal_cost_note": "No public hazardous-waste tipping fee was used. These three values are assumptions for sensitivity only.",
+  "transport_processing_inr_per_t_assumed": {
+    "none": 0,
+    "low": 500,
+    "high": 2000
+  },
+  "transport_note": "No measured haul or processing cost was used. These values are assumptions for sensitivity only.",
+  "jarofix_cement_t_per_t_jarosite": 0.10,
+  "jarofix_lime_fraction": 0.02,
+  "jarofix_note": "Gared and Gaur (2021) abstract: before disposal, 2% lime and 10% cement are added to make jarofix. Lime is recorded and not priced. The 10% cement credit is optional and is off in the central case, because the counterfactual disposal route is not observed for every tonne.",
+  "strength_ratio_threshold": 1.0,
+  "tclp_limits_mg_per_l": {
+    "Pb": 5.0,
+    "Cd": 1.0,
+    "Ag": 5.0
+  },
+  "tclp_note": "US toxicity-characteristic levels for lead, cadmium and silver. Zinc, copper and iron are not given limits here, because they are not on that list."
+}

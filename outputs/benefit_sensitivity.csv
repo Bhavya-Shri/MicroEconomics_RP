@@ -1,0 +1,13 @@
+leaching_status,strength_ratio,cement_displaced_t,cement_value_inr,carbon_value_inr,disposal_value_inr,transport_cost_inr,net_inr_per_t,conditional_on_leaching_compliance,case
+untested,1.0,1.0,8000.0,0.0,0.0,0.0,8000.0,True,central_cement_only
+untested,1.0,1.0,7400.0,0.0,0.0,0.0,7400.0,True,low_cement_price
+untested,1.0,1.0,8600.0,0.0,0.0,0.0,8600.0,True,high_cement_price
+untested,1.0,1.0,8000.0,340.0,0.0,0.0,8340.0,True,carbon_500
+untested,1.0,1.0,8000.0,1360.0,0.0,0.0,9360.0,True,carbon_2000
+untested,1.0,1.0,8000.0,1800.0,0.0,0.0,9800.0,True,carbon_2000_high_factor
+untested,1.0,1.0,8000.0,0.0,1500.0,0.0,9500.0,True,disposal_1500
+untested,1.0,1.0,8000.0,0.0,4000.0,0.0,12000.0,True,disposal_4000
+untested,1.0,1.0,8000.0,0.0,0.0,500.0,7500.0,True,transport_500
+untested,1.0,1.0,8000.0,0.0,0.0,2000.0,6000.0,True,transport_2000
+untested,1.0,1.1,8800.0,0.0,0.0,0.0,8800.0,True,with_jarofix_cement_credit
+fail,1.0,0.0,0.0,0.0,0.0,0.0,0.0,True,leaching_fail_zeroes_credit

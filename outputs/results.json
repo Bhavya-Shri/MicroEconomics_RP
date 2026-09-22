@@ -1,0 +1,446 @@
+{
+  "n_rows": 39,
+  "n_compressive_rows": 27,
+  "studies": [
+    "afaque2024",
+    "nandi2021",
+    "sharma2021"
+  ],
+  "leaching_counts": {
+    "untested": 39
+  },
+  "leave_one_study_out": [
+    {
+      "n": 3,
+      "mae": 0.04243124541315354,
+      "rmse": 0.04799068542619249,
+      "r2": -1.0162704539987488,
+      "model": "quadratic_linear",
+      "held_out_study": "afaque2024"
+    },
+    {
+      "n": 3,
+      "mae": 0.04179422927976225,
+      "rmse": 0.05820878824688776,
+      "r2": -1.9662790029112194,
+      "model": "random_forest",
+      "held_out_study": "afaque2024"
+    },
+    {
+      "n": 10,
+      "mae": 0.06511746154077758,
+      "rmse": 0.09630436128919556,
+      "r2": -0.017015448816573686,
+      "model": "quadratic_linear",
+      "held_out_study": "nandi2021"
+    },
+    {
+      "n": 10,
+      "mae": 0.05871938083015878,
+      "rmse": 0.09005557271880184,
+      "r2": 0.11068252841083104,
+      "model": "random_forest",
+      "held_out_study": "nandi2021"
+    },
+    {
+      "n": 14,
+      "mae": 0.0604322736426642,
+      "rmse": 0.07098324168962254,
+      "r2": -0.28302387870307055,
+      "model": "quadratic_linear",
+      "held_out_study": "sharma2021"
+    },
+    {
+      "n": 14,
+      "mae": 0.06560017721173446,
+      "rmse": 0.07676059280391062,
+      "r2": -0.50037466211122,
+      "model": "random_forest",
+      "held_out_study": "sharma2021"
+    }
+  ],
+  "quadratic_28_day": {
+    "sharma2021": {
+      "intercept": 1.0222593571428569,
+      "linear_term": 0.0056429642857144325,
+      "quadratic_term": -0.00035585571428571865,
+      "fitted_peak_replacement_pct": 8,
+      "fitted_peak_ratio": 1.0446283057142862,
+      "curve": {
+        "0": 1.0222593571428569,
+        "1": 1.0275464657142857,
+        "2": 1.032121862857143,
+        "3": 1.0359855485714289,
+        "4": 1.0391375228571431,
+        "5": 1.041577785714286,
+        "6": 1.0433063371428575,
+        "7": 1.0443231771428578,
+        "8": 1.0446283057142862,
+        "9": 1.0442217228571435,
+        "10": 1.0431034285714293,
+        "11": 1.0412734228571436,
+        "12": 1.0387317057142864,
+        "13": 1.0354782771428581,
+        "14": 1.0315131371428579,
+        "15": 1.0268362857142868,
+        "16": 1.021447722857144,
+        "17": 1.0153474485714296,
+        "18": 1.008535462857144,
+        "19": 1.0010117657142867,
+        "20": 0.9927763571428581,
+        "21": 0.983829237142858,
+        "22": 0.9741704057142866,
+        "23": 0.9637998628571436,
+        "24": 0.9527176085714293,
+        "25": 0.9409236428571435,
+        "26": 0.9284179657142864,
+        "27": 0.9152005771428577,
+        "28": 0.9012714771428576,
+        "29": 0.886630665714286,
+        "30": 0.871278142857143
+      }
+    },
+    "nandi2021": {
+      "intercept": 0.9841785714285723,
+      "linear_term": 0.023403571428571298,
+      "quadratic_term": -0.0010264285714285636,
+      "fitted_peak_replacement_pct": 11,
+      "fitted_peak_ratio": 1.1174200000000005,
+      "curve": {
+        "0": 0.9841785714285723,
+        "1": 1.006555714285715,
+        "2": 1.0268800000000007,
+        "3": 1.0451514285714292,
+        "4": 1.0613700000000004,
+        "5": 1.0755357142857147,
+        "6": 1.0876485714285717,
+        "7": 1.097708571428572,
+        "8": 1.1057157142857146,
+        "9": 1.1116700000000004,
+        "10": 1.1155714285714289,
+        "11": 1.1174200000000005,
+        "12": 1.1172157142857146,
+        "13": 1.1149585714285721,
+        "14": 1.1106485714285719,
+        "15": 1.104285714285715,
+        "16": 1.0958700000000008,
+        "17": 1.0854014285714295,
+        "18": 1.072880000000001,
+        "19": 1.0583057142857157,
+        "20": 1.0416785714285728,
+        "21": 1.0229985714285732,
+        "22": 1.002265714285716,
+        "23": 0.9794800000000019,
+        "24": 0.9546414285714309,
+        "25": 0.9277500000000026,
+        "26": 0.8988057142857171,
+        "27": 0.8678085714285745,
+        "28": 0.8347585714285748,
+        "29": 0.7996557142857181,
+        "30": 0.7625000000000041
+      }
+    }
+  },
+  "agreement_28_day": [
+    {
+      "replacement_pct": 0,
+      "sharma2021_ratio": 1.0,
+      "nandi2021_ratio": 1.0,
+      "both_at_least_control": true,
+      "leaching_status": "untested"
+    },
+    {
+      "replacement_pct": 5,
+      "sharma2021_ratio": 1.064076,
+      "nandi2021_ratio": 1.034,
+      "both_at_least_control": true,
+      "leaching_status": "untested"
+    },
+    {
+      "replacement_pct": 10,
+      "sharma2021_ratio": 1.065363,
+      "nandi2021_ratio": 1.117,
+      "both_at_least_control": true,
+      "leaching_status": "untested"
+    },
+    {
+      "replacement_pct": 15,
+      "sharma2021_ratio": 1.030108,
+      "nandi2021_ratio": 1.191,
+      "both_at_least_control": true,
+      "leaching_status": "untested"
+    },
+    {
+      "replacement_pct": 20,
+      "sharma2021_ratio": 0.958312,
+      "nandi2021_ratio": 0.951,
+      "both_at_least_control": false,
+      "leaching_status": "untested"
+    },
+    {
+      "replacement_pct": 25,
+      "sharma2021_ratio": 0.932064,
+      "nandi2021_ratio": 0.956,
+      "both_at_least_control": false,
+      "leaching_status": "untested"
+    }
+  ],
+  "central_benefit_by_replacement": [
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8000.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 0,
+      "sharma2021_ratio": 1.0,
+      "nandi2021_ratio": 1.0,
+      "both_at_least_control": true
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8000.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 5,
+      "sharma2021_ratio": 1.064076,
+      "nandi2021_ratio": 1.034,
+      "both_at_least_control": true
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8000.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 10,
+      "sharma2021_ratio": 1.065363,
+      "nandi2021_ratio": 1.117,
+      "both_at_least_control": true
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8000.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 15,
+      "sharma2021_ratio": 1.030108,
+      "nandi2021_ratio": 1.191,
+      "both_at_least_control": true
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 0.0,
+      "cement_displaced_t": 0.0,
+      "cement_value_inr": 0.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 0.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 20,
+      "sharma2021_ratio": 0.958312,
+      "nandi2021_ratio": 0.951,
+      "both_at_least_control": false
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 0.0,
+      "cement_displaced_t": 0.0,
+      "cement_value_inr": 0.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 0.0,
+      "conditional_on_leaching_compliance": true,
+      "replacement_pct": 25,
+      "sharma2021_ratio": 0.932064,
+      "nandi2021_ratio": 0.956,
+      "both_at_least_control": false
+    }
+  ],
+  "worked_example_replacement_pct": 15,
+  "worked_example_net_inr_per_t": 8000.0,
+  "supply_scaled_gross_credit": {
+    "kangas_factor_on_usgs_2024_smelter": {
+      "jarosite_t": 408529.0,
+      "gross_cement_credit_inr": 3268232000.0
+    },
+    "incremental_after_hzl_reported_use": {
+      "jarosite_t": 244734.0,
+      "gross_cement_credit_inr": 1957872000.0
+    },
+    "nandi_citation": {
+      "jarosite_t": 250000.0,
+      "gross_cement_credit_inr": 2000000000.0
+    },
+    "sharma_hzl_chittorgarh": {
+      "jarosite_t": 500000.0,
+      "gross_cement_credit_inr": 4000000000.0
+    }
+  },
+  "sensitivities_at_strength_pass": [
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8000.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "central_cement_only"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 7400.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 7400.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "low_cement_price"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8600.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8600.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "high_cement_price"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 340.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8340.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "carbon_500"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 1360.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 9360.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "carbon_2000"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 1800.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 9800.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "carbon_2000_high_factor"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 1500.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 9500.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "disposal_1500"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 4000.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 12000.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "disposal_4000"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 500.0,
+      "net_inr_per_t": 7500.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "transport_500"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.0,
+      "cement_value_inr": 8000.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 2000.0,
+      "net_inr_per_t": 6000.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "transport_2000"
+    },
+    {
+      "leaching_status": "untested",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 1.1,
+      "cement_value_inr": 8800.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 8800.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "with_jarofix_cement_credit"
+    },
+    {
+      "leaching_status": "fail",
+      "strength_ratio": 1.0,
+      "cement_displaced_t": 0.0,
+      "cement_value_inr": 0.0,
+      "carbon_value_inr": 0.0,
+      "disposal_value_inr": 0.0,
+      "transport_cost_inr": 0.0,
+      "net_inr_per_t": 0.0,
+      "conditional_on_leaching_compliance": true,
+      "case": "leaching_fail_zeroes_credit"
+    }
+  ]
+}
